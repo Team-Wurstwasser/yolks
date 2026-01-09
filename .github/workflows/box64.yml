@@ -26,15 +26,11 @@ jobs:
       - uses: docker/setup-buildx-action@v3
         with:
           buildkitd-flags: --debug
-      - id: lower-repo
-        name: Repository to lowercase
-        run: |
-          echo "repository=${GITHUB_REPOSITORY_OWNER@L}" >> $GITHUB_OUTPUT
       - uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ steps.lower-repo.outputs.repository }}
-          password: ${{ secrets.REGISTRY_TOKEN || secrets.GITHUB_TOKEN }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - uses: docker/build-push-action@v6
         with:
           context: ./box64
@@ -42,5 +38,4 @@ jobs:
           platforms: linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ steps.lower-repo.outputs.repository }}/yolks:${{ matrix.tag }}
-            ${{ github.repository_owner == 'pelican-eggs' && format('ghcr.io/parkervcp/yolks:{0}', matrix.tag) || '' }}
+            ghcr.io/team-wurstwasser/yolks:${{ matrix.tag }}
