@@ -28,11 +28,11 @@ is tagged correctly.
 
 ### [Oses](/oses)
 
-* [alpine](/oses/alpine)
+* [`alpine`](/oses/alpine)
   * `ghcr.io/team-wurstwasser/yolks:alpine`
-* [debian](/oses/debian)
+* [`debian`](/oses/debian)
   * `ghcr.io/team-wurstwasser/yolks:debian`
-* [ubuntu](/oses/ubuntu)
+* [`ubuntu`](/oses/ubuntu)
   * `ghcr.io/team-wurstwasser/yolks:ubuntu`
 
 ### [Apps](/apps)
@@ -298,11 +298,11 @@ is tagged correctly.
 
 ### [Rust](/rust)
 
-* ['rust1.56'](/rust/1.56)
+* [`rust1.56`](/rust/1.56)
   * `ghcr.io/team-wurstwasser/yolks:rust_1.56`
-* ['rust1.60'](/rust/1.60)
+* [`rust1.60`](/rust/1.60)
   * `ghcr.io/team-wurstwasser/yolks:rust_1.60`
-* ['rust latest'](/rust/latest)
+* [`rust latest`](/rust/latest)
   * `ghcr.io/team-wurstwasser/yolks:rust_latest`
 
 ### [SteamCMD](/steamcmd)
