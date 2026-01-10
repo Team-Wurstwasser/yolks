@@ -24,7 +24,7 @@ FROM        --platform=$TARGETOS/$TARGETARCH ubuntu:jammy
 
 LABEL       author="oliver194" maintainer="100048880+oliver194@users.noreply.github.com"
 
-LABEL       org.opencontainers.image.source="https://github.com/oliver194/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/team-wurstwasser/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 ENV         DEBIAN_FRONTEND=noninteractive
