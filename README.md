@@ -126,30 +126,32 @@ is tagged correctly.
 
 ### [Games](/games)
 
-* [`altv`](/games/altv)
+* [`Altv`](/games/altv)
   * `ghcr.io/team-wurstwasser/games:altv`
-* [`arma3`](/games/arma3)
+* [`Arma3`](/games/arma3)
   * `ghcr.io/team-wurstwasser/games:arma3`
-* [`dayz`](/games/dayz)
+* [`Dayz`](/games/dayz)
   * `ghcr.io/team-wurstwasser/games:dayz`
-* [`minetest`](/games/minetest)
+* [`Minetest`](/games/minetest)
   * `ghcr.io/team-wurstwasser/games:minetest`  
-* [`mohaa`](games/mohaa)
+* [`Mohaa`](games/mohaa)
   * `ghcr.io/team-wurstwasser/games:mohaa`  
 * [`Multi Theft Auto: San Andreas`](games/mta)
   * `ghcr.io/team-wurstwasser/games:mta` 
 * [`Rust (dedicated server)`](games/rust)
   * `ghcr.io/team-wurstwasser/games:rust`      
-* [`samp`](/games/samp)
+* [`Samp`](/games/samp)
   * `ghcr.io/team-wurstwasser/games:samp`  
-* [`source`](/games/source)
+* [`Source`](/games/source)
   * `ghcr.io/team-wurstwasser/games:source`
-* [`thebattleforwesnoth`](/games/thebattleforwesnoth)
+* [`Thebattleforwesnoth`](/games/thebattleforwesnoth)
   * `ghcr.io/team-wurstwasser/games:thebattleforwesnoth`
-* [`valheim`](/games/valheim)
+* [`Valheim`](/games/valheim)
   * `ghcr.io/team-wurstwasser/games:valheim`
-* [`zandronum`](/games/zandronum)
+* [`Zandronum`](/games/zandronum)
   * `ghcr.io/team-wurstwasser/games:zandronum`
+* [`Hytale`](/games/hytale)
+  * `ghcr.io/team-wurstwasser/games:hytale`
 
 ### [Golang](/go)
 
