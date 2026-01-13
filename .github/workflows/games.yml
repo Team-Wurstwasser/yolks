@@ -29,6 +29,7 @@ jobs:
           - valheim
           - thebattleforwesnoth
           - zandronum
+          - hytale
           
     steps:
       - uses: actions/checkout@v4
