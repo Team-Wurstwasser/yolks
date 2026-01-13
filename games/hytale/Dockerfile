@@ -27,6 +27,8 @@ LABEL       author="William V." maintainer="william.venner@infraly.co"
 LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
+USER root
+
 COPY        --from=ghcr.io/team-wurstwasser/yolks:java_25 entrypoint.sh /java.sh
 RUN 		chmod +x /java.sh
 
