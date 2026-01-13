@@ -27,10 +27,11 @@ LABEL       author="William V." maintainer="william.venner@infraly.co"
 LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
-USER		root
-
 COPY        --from=ghcr.io/team-wurstwasser/yolks:java_25 entrypoint.sh /java.sh
 RUN 		chmod +x /java.sh
+
+RUN			apt-get update -y \
+				&& apt-get install -y unzip
 
 USER        container
 ENV         USER=container HOME=/home/container
