@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * 1"
   push:
     branches:
-      - master
+      - main
     paths:
       - rust/**
 permissions:
@@ -19,9 +19,9 @@ jobs:
       fail-fast: false
       matrix:
         tag:
-          - '1.56'
-          - '1.60'
-          - 'latest'
+          - 1.56
+          - 1.60
+          - latest
     steps:
       - uses: actions/checkout@v4
       # Setup QEMU for ARM64 Build
